@@ -1,0 +1,10 @@
+.app-overall {
+  background-image: url(./Directory/images/tr-logo.png);
+  background-color:black;
+  height: 100vh;
+  width: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
