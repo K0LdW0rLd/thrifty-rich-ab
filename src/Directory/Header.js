@@ -7,6 +7,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import About from './About';
 import Shop from './Shop';
+import Home from './Home';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -21,7 +22,7 @@ class Header extends Component {
         return (
             <Router>
                 <Navbar className='nav-head' collapseOnSelect expand="lg" bg="dark" variant="dark">
-                    <Navbar.Brand href="/"><img src={logo} width= '60' height='60' alt='logo' /></Navbar.Brand>
+                    <img src={logo} width= '60' height='60' alt='logo' />
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mr-auto">
@@ -30,11 +31,12 @@ class Header extends Component {
                             <Link class="nav-link" to='/shop'>Shop</Link>
                         </Nav>
                         <Nav>
-                            <Link class="nav-link" to="#"><FontAwesomeIcon icon={['fab', 'instagram']} size="2x" /></Link>
-                            <Link class="nav-link" to="#"><FontAwesomeIcon icon={['fab', 'twitter']} size="2x" /></Link>                    
+                            <Link class="nav-link" to="#"><FontAwesomeIcon icon={['fab', 'instagram']} size="1x" /></Link>
+                            <Link class="nav-link" to="#"><FontAwesomeIcon icon={['fab', 'twitter']} size="1x" /></Link>                    
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
+                <Route exact path='/' component={Home}/>
                 <Route path='/about' component={About}/>
                 <Route path='/shop' component={Shop}/>
             </Router>

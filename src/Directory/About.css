@@ -1,3 +1,72 @@
 .jtf {
-    color: gold;
+    color: rgb(220, 189, 126);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.aboutHeader {
+    text-align: center;
+    background-color: rgba(120, 120, 120, 0.7);
+    padding: 15px;
+    margin: 25px;
+    border: 2px solid white;
+    border-radius: 25% 10%;
+}
+
+.aboutDiv {
+    display: flex;
+}
+
+.aboutPara {
+    border: 2px solid white;
+    border-radius: 25% 10%;
+    padding: 25px;
+    background-color: black;
+    color: rgb(220, 189, 126);
+    margin: 50px;
+    width: 75%;
+}
+
+.mobileHeadshot {
+    display: none;
+    padding: 5px;
+}
+
+.aboutImage {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-content: center;
+}
+
+tab1 { 
+    padding-left: 4em; 
+}
+
+.aImage {
+    padding: 10px;
+    height: 250px;
+    width: 200px;
+}
+
+@media screen and (max-width: 425px) {
+    .aboutHeader {
+        font-size: 25px;
+    }
+    .about2Para {
+        display: none;
+    }
+    .aboutImage {
+        display: none;
+    }
+    .mobileHeadshot {
+        display: flex;
+    }
+    .aImage {
+        height: 150;
+        width: 150;
+    }
+
 }

@@ -8,3 +8,12 @@
   background-position: center;
   background-attachment: fixed;
 }
+
+
+/* Fix to add black background */
+/* .app-color {
+  background-color: black;
+  height: auto;
+  width: auto;
+  z-index: -1;
+} */
