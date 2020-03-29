@@ -5,7 +5,7 @@ import Header from "./Directory/Header";
 class App extends Component {
   render () {
     return (
-      <div className='app-overall app-color'>
+      <div className='app-overall'>
           <Header />
       </div>
     );

@@ -10,15 +10,17 @@
     /* margin: 0 auto; */
     position: absolute;
     top: 25%;
-    background-color: rgba(120, 120, 120, 0.7);
+    background-color: rgba(0, 0, 0, 0.7);
     border: 2px solid white;
-    border-radius: 25% 10%;
+    /* border-radius: 25% 10%; */
     padding: 50px;
     display: flex;
     flex-direction: column;
+    width: 75%;
+    align-items: center;
+    color: white;
 }
 
 button {
     margin: 20px;
-    color: white;
 }
