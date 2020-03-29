@@ -6,6 +6,8 @@ import photo3 from './images/photo3.jpg';
 import photo4 from './images/photo4.jpg';
 import photo5 from './images/photo5.jpg';
 import photo6 from './images/photo6.jpg';
+import photo7 from './images/photo7.jpg';
+import photo8 from './images/photo8.jpg';
 
 class About extends Component {
     render () {
@@ -23,8 +25,8 @@ class About extends Component {
                     </div>
                     <div className='aboutImage'>
                         {/* <div> */}
-                            <img className='aImage' src={photo1} width= '200' height='200' alt = 'photo1' />
-                            <img className='aImage' src={photo2} width= '200' height='200' alt = 'photo2' />
+                            <img className='aImage' src={photo7} width= '200' height='200' alt = 'photo1' />
+                            <img className='aImage' src={photo8} width= '200' height='200' alt = 'photo2' />
                             <img className='aImage' src={photo3} width= '200' height='200' alt = 'photo3' />
                             <img className='aImage' src={photo4} width= '200' height='200' alt = 'photo4' />
                         {/* </div> */}

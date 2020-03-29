@@ -29,10 +29,11 @@ class Header extends Component {
                             <Link class="nav-link" to="/">Home<span class="sr-only">(current)</span></Link>
                             <Link class="nav-link" to="/about">About</Link>
                             <Link class="nav-link" to='/shop'>Shop</Link>
+                            <Link class="nav-link" to='/'>Personal Shop</Link>
                         </Nav>
                         <Nav>
                             <Link class="nav-link" to="#"><FontAwesomeIcon icon={['fab', 'instagram']} size="1x" /></Link>
-                            <Link class="nav-link" to="#"><FontAwesomeIcon icon={['fab', 'twitter']} size="1x" /></Link>                    
+                            <Link class="nav-link" to="#"><FontAwesomeIcon icon={['fab', 'facebook']} size="1x" /></Link>                    
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
