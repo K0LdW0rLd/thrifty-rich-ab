@@ -8,6 +8,7 @@ import Nav from 'react-bootstrap/Nav';
 import About from './About';
 import Shop from './Shop';
 import Home from './Home';
+import Personal from "./Personal";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -29,7 +30,7 @@ class Header extends Component {
                             <Link class="nav-link" to="/">Home<span class="sr-only">(current)</span></Link>
                             <Link class="nav-link" to="/about">About</Link>
                             <Link class="nav-link" to='/shop'>Shop</Link>
-                            <Link class="nav-link" to='/'>Personal Shop</Link>
+                            <Link class="nav-link" to='/personal'>Personal Shop</Link>
                         </Nav>
                         <Nav>
                             <Link class="nav-link" to="#"><FontAwesomeIcon icon={['fab', 'instagram']} size="1x" /></Link>
@@ -40,6 +41,7 @@ class Header extends Component {
                 <Route exact path='/' component={Home}/>
                 <Route path='/about' component={About}/>
                 <Route path='/shop' component={Shop}/>
+                <Route path='/personal' component={Personal}/>
             </Router>
         )
     };

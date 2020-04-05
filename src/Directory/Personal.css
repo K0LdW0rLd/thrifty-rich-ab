@@ -1,0 +1,30 @@
+.personalDiv {
+    padding-top: 50px;
+    background-color: rgb(220, 189, 126);
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+}
+
+.personalOptions {
+    display: flex;
+    height: 100%;
+    justify-content: space-around; 
+    align-items: center;
+    margin-bottom:50px;
+}
+
+.personalBottom {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.personalList {
+    list-style: none;
+}
