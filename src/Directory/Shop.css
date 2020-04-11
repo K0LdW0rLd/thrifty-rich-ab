@@ -1,6 +1,22 @@
 .shopDiv {
+    display: flex;
+}
+
+.shopSideNav {
+    padding: 10px 10px 0 0;
+    color: rgb(220, 189, 126);
+    font-weight: bold;
+}
+
+.shopSideNav li{
+    list-style-type: none;
+    margin: 10px;
+    font-size: 20px;
+}
+
+
+.shopContent {
     padding-top: 50px;
-    background-color: rgb(220, 189, 126);
-    ;
+    background-color: rgb(220, 189, 126);    
 }
 
