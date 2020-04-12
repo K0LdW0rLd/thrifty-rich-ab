@@ -7,12 +7,13 @@ class Shop extends Component {
             <div className='shopDiv'>
                 <div className='shopSideNav'>
                     <ul>
-                        <li>Tops</li>
-                        <li>Bottoms</li>
-                        <li>Blazers</li>
-                        <li>Outerwear</li>
-                        <li>Sequins</li>
-                        <li>Accessories</li>
+                        {/* Add code to make the a tags filter the backend results.  Waiting on backend to be built first */}
+                        <li><a href='#'>Tops</a></li>
+                        <li><a href='#'>Bottoms</a></li>
+                        <li><a href='#'>Blazers</a></li>
+                        <li><a href='#'>Outerwear</a></li>
+                        <li><a href='#'>Sequins</a></li>
+                        <li><a href='#'>Accessories</a></li>
                     </ul>
                 </div>
                 <div className='container shopContent'>

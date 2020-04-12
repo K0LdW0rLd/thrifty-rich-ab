@@ -34,7 +34,8 @@ class Header extends Component {
                         </Nav>
                         <Nav>
                             <Link class="nav-link" to="#"><FontAwesomeIcon icon={['fab', 'instagram']} size="1x" /></Link>
-                            <Link class="nav-link" to="#"><FontAwesomeIcon icon={['fab', 'facebook']} size="1x" /></Link>                    
+                            <Link class="nav-link" to="#"><FontAwesomeIcon icon={['fab', 'facebook']} size="1x" /></Link>  
+                            <Link class="nav-link" to="#"><FontAwesomeIcon icon={['fas', 'shopping-cart']} size="1x" /></Link>                  
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
