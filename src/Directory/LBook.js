@@ -1,21 +1,12 @@
 import React, {Component} from "react";
 import placeholder from './images/placeholder.jpg';
-import './Shop.css';
-class Shop extends Component {
+import './LBook.css';
+
+class LBook extends Component {
     render () {
         return (
-            <div className='shopDiv'>
-                <div className='shopSideNav'>
-                    {/* Add code to make the a tags filter the backend results.  Waiting on backend to be built first */}
-                    <p><a href='#'>Tops</a></p>
-                    <p><a href='#'>Bottoms</a></p>
-                    <p><a href='#'>Blazers</a></p>
-                    <p><a href='#'>Outerwear</a></p>
-                    <p><a href='#'>Sequins</a></p>
-                    <p><a href='#'>Accessories</a></p>
-                    <p><a href='#'>Shoes</a></p>
-                </div>
-            <div className='container shopContent'>
+            <div className='lBookDiv'>
+            <div className='container lBookContent'>
                     <div class="row row-cols-1 row-cols-md-3">
                         <div class="col mb-4">
                             <div class="card h-100 w-100">
@@ -53,11 +44,11 @@ class Shop extends Component {
                             </div>
                             </div>
                         </div>
-                        </div>
+                    </div>
                 </div>
             </div>
         )
     }
 };
 
-export default Shop;
+export default LBook;
