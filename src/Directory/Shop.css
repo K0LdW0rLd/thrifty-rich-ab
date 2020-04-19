@@ -8,25 +8,29 @@
 }
 
 .shopSideNav {
-    padding: 10px 10px 0 0;
+    padding-top: 20px;
     font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
 }
 
-.shopSideNav li{
-    list-style-type: none;
-    margin: 10px;
+.shopSideNav a{
+    text-decoration: none;
     font-size: 20px;
-    width: 100%;
-}
-
-.shopSideNav li a{
     color: rgb(220, 189, 126);
-    width: 100%;
+    padding: 20px;
     transition: color 1s;
+    width: 100%;
 }
 
+.shopSideNav p {
+    margin: 20px;
+    /* width: 100%; */
+}
 
-.shopSideNav li a:hover{
+.shopSideNav p a:hover{
     color: black;
     background-color: rgb(220, 189, 126);
 }

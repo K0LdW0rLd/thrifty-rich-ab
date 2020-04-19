@@ -6,17 +6,16 @@ class Shop extends Component {
         return (
             <div className='shopDiv'>
                 <div className='shopSideNav'>
-                    <ul>
-                        {/* Add code to make the a tags filter the backend results.  Waiting on backend to be built first */}
-                        <li><a href='#'>Tops</a></li>
-                        <li><a href='#'>Bottoms</a></li>
-                        <li><a href='#'>Blazers</a></li>
-                        <li><a href='#'>Outerwear</a></li>
-                        <li><a href='#'>Sequins</a></li>
-                        <li><a href='#'>Accessories</a></li>
-                    </ul>
+                    {/* Add code to make the a tags filter the backend results.  Waiting on backend to be built first */}
+                    <p><a href='#'>Tops</a></p>
+                    <p><a href='#'>Bottoms</a></p>
+                    <p><a href='#'>Blazers</a></p>
+                    <p><a href='#'>Outerwear</a></p>
+                    <p><a href='#'>Sequins</a></p>
+                    <p><a href='#'>Accessories</a></p>
+                    <p><a href='#'>Shoes</a></p>
                 </div>
-                <div className='container shopContent'>
+            <div className='container shopContent'>
                     <div class="row row-cols-1 row-cols-md-3">
                         <div class="col mb-4">
                             <div class="card h-100 w-100">
