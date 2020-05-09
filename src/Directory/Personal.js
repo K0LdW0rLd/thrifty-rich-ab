@@ -7,7 +7,8 @@ class Personal extends Component {
         return (
             <div className= 'container personalDiv'>
                 <div className= 'container personalDiv'>
-                    <p>Thrifty Rich is here to serve you with all your thrift needs; therefore, we are offering additional services. Please see both options below and contact me should you be interested.</p>
+                    <p>Thrifty Rich is here to serve you with all your thrift needs; therefore, we are offering additional services. Please see both options below and fill out application form with advanced partial payment to set up an appointment time. Should you have any questions please feel free to contact me. </p>
+                    <a href='https://forms.gle/3e4Gv6gc7nXAydQB9' target= '_blank'>Application Form</a>
                     <div className='container personalOptions'>
                         <div className='container'>
                             <h3>I will shop with you</h3>
@@ -20,15 +21,6 @@ class Personal extends Component {
                             {/* <button>Shop For You</button> */}
                         </div>
                     </div>
-                </div>
-                <div className='container personalBottom'>
-                    <p>Payment Options: 
-                        <ul className='personalList'>
-                            <li>Cash app: $AABrinkley</li>
-                            <li>PayPal: PayPal.Me/thriftyrich</li>
-                            <li>*Credit cards are accepted through my square reader device.</li>
-                        </ul>
-                    </p>
                 </div>
             </div>
         )
