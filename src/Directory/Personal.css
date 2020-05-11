@@ -30,10 +30,19 @@
 }
 
 @media screen and (max-width: 425px) {
+    .personalBackground{
+        background-position: cover;
+        height: 100%;
+    }
     .personalDiv {
-        padding-top: 20px;
+        padding-top: 0px;
+        height: 100%;
     }
     .personalOptions {
         flex-direction: column;
+        margin-bottom:10px;
+    }
+    .personalOptionSide {
+        margin: 1px;
     }
 }
