@@ -13,7 +13,7 @@ class About extends Component {
     render () {
         return (
             <div className='container jtf'>
-                <h1 className='aboutHeader'>Thriftanista</h1>
+                <h1 className='aboutHeader'>MEET THE OWNER AND THRIFTANISTA</h1>
                 <div className='mobileHeadshot'>
                     <img src={photo5} width= '100' height='100' alt = 'photo5' />
                     <img src={photo6} width= '100' height='100' alt = 'photo6' />

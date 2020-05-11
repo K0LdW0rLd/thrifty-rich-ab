@@ -1,0 +1,15 @@
+.footerLink {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 425px) {
+    .footerLink {
+        flex-direction: column;
+    }
+}

@@ -1,6 +1,10 @@
+.personalBackground{
+    background-image: url(./images/thrift-stores_3.jpg);
+    background-position: center;
+}
+
 .personalDiv {
     padding-top: 50px;
-    background-color: rgb(220, 189, 126);
     background-size: cover;
     height: 100%;
     display: flex;
@@ -17,14 +21,19 @@
     margin-bottom:50px;
 }
 
-.personalBottom {
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 50px;
+.personalOptionSide {
+    background-color: rgba(250, 250, 250, .5);
+    border-style: dotted;
+    border-width: 2px;
+    margin: 10px;
+    font-weight: bold;
 }
 
-.personalList {
-    list-style: none;
+@media screen and (max-width: 425px) {
+    .personalDiv {
+        padding-top: 20px;
+    }
+    .personalOptions {
+        flex-direction: column;
+    }
 }
